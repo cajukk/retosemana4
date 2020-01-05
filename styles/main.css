@@ -130,7 +130,7 @@ main {
 }
 
 .portafolio {
-  background-color: yellow;
+  background-color: #ffd035;
   color: white;
 }
 
@@ -148,3 +148,18 @@ main {
   margin: 2px 0;
   padding-bottom: 20px;
 }
+
+.clientes {
+    color:white;
+    background-color: grey;
+    }
+
+.clientes h2{
+    
+    padding: 20px 0;
+}
+
+.clientes-images{
+    padding: 0 0 35px 89px
+}
+
