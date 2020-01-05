@@ -1,0 +1,48 @@
+/* Css Globals  */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+/* header  */
+
+.header {
+    background-image: url(../images/header.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 960px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    padding-top: 14px;
+}
+
+.header h2 {
+    position: absolute;
+    top: 383px;
+    left: 30px;
+    background-color: #96a8e2b3;
+    padding: 10px 33px;
+}
