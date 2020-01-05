@@ -97,15 +97,23 @@
         </section>
     </main>
     <footer>
-        <h2>Contacto</h2>
-        <div>
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
-            <input type="email" placeholder="Email">
-            <input type="number" placeholder="Telefono">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
-        </div>
+        <section class="formbg">
+            <h2>Contacto</h2>
+            <form action="#">
+                <div>
+                    <input class="nombre" type="text" placeholder="Nombre" required pattern="[A-Za-z]+">
+                    <input class="apellido" type="text" placeholder="Apellido" required pattern="[A-Za-z]+">
+                </div>
+                <div>
+                <input class="email" type="text" placeholder="Email" required>
+                <input class="telefono" type="text" placeholder="Telefono" required pattern="[A-Za-z0-9]+">
+                </div>
+                <textarea placeholder="Description" required pattern="[A-Za-z]+"></textarea>
+                <div>
+                <button>Enviar</button>
+                </div>
+            </form>
+        </section>
     </footer>
 </body>
 
